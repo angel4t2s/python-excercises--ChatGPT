@@ -1,0 +1,121 @@
+💪 Boom! Let's level up, Tychicus — it's Day 3: Python Data Structures — the tools you'll use in almost every real-life project.
+
+🧠 What You're Practicing Today
+
+Lists: ordered, mutable collections
+
+Tuples: ordered, immutable collections
+
+Dictionaries: key-value pairs
+
+Sets: unordered collections with no duplicates
+
+Combining them in useful, realistic ways
+
+👨‍💻 Day 3 Real-Life Style Tasks
+✅ 1. Birthday Reminder App
+
+Create a dictionary of people’s names and birthdays. Then:
+
+Ask the user to input a name
+
+If it exists, show their birthday
+
+If not, allow the user to add it to the dictionary
+
+Example:
+
+Whose birthday do you want to look up? Chloe
+Chloe’s birthday is on March 5.
+
+Whose birthday? Stacy
+I don’t have Stacy’s birthday. Add it? (y/n): y
+What is Stacy's birthday? April 10
+
+✅ 2. Shopping List App
+
+Use a list to store grocery items. Then:
+
+Let the user add items until they type “done”
+
+Show the sorted list (alphabetically)
+
+Ask if they want to remove anything (by name or index)
+
+Print the final list
+
+Bonus: Prevent duplicate items using a set.
+
+✅ 3. Student Grades Database
+
+Use a dictionary where:
+
+Keys are student names
+
+Values are tuples of scores
+
+Then:
+
+Display all student names
+
+Ask the user to pick one
+
+Print their average score
+
+Show if they passed or failed (like Day 2)
+
+✅ 4. Word Frequency Counter
+
+Ask the user to input a sentence.
+
+Convert it to lowercase
+
+Use a dictionary to count the number of times each word appears
+
+Print the result in this format:
+
+"this": 2
+"is": 1
+"good": 1
+
+✅ 5. Quiz Game
+
+Create a list of 5 questions, where each question is a dictionary with:
+
+'question': the question string
+
+'options': a list of options
+
+'answer': correct option
+
+Example:
+
+{
+  "question": "What is the capital of Nigeria?",
+  "options": ["Abuja", "Lagos", "Kano"],
+  "answer": "Abuja"
+}
+
+
+Loop through the quiz, display each question with options, and let the user choose. Track the score.
+
+🧠 Bonus Challenge: Set Puzzle Game
+
+Create a game where:
+
+You randomly generate a list of 20 numbers (1–10)
+
+Use a set() to eliminate duplicates
+
+Ask the user to guess how many unique numbers were in the list
+
+📌 Instructions:
+
+Combine all into one file as usual
+
+Use functions where needed
+
+Submit here for full feedback & scoring!
+
+You’re moving fast and clean — time to sharpen your grip on Python’s core tools 🧰
+Let me know when you're done!
