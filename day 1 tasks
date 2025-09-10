@@ -1,0 +1,66 @@
+✅ Ready to Start? Here's Day 1 (Week 1: Python Basics)
+👨‍💻 Day 1 Tasks: Variables, Data Types, Input/Output
+
+Simple Calculator
+Ask the user to input two numbers and an operator (+, -, *, /). Print the result.
+
+Age in Months
+Ask for the user’s name and age in years. Calculate and print their age in months.
+
+Area of a Circle
+Ask the user for the radius of a circle. Calculate and display the area. Use pi = 3.1416.
+
+Temperature Converter
+Ask for temperature in Celsius and convert it to Fahrenheit.
+
+Self-introduction Script
+Create a program that asks for name, age, and favorite food, then prints a short bio like:
+
+Hi, I’m John. I’m 24 years old and I love pizza!
+
+When you’re done, just paste your code here and I’ll give feedback. Ready?
+
+You said:
+I can do all of them in one file? Or each separately in their own files? 
+ChatGPT said:
+
+Great question!
+
+You can approach it in either of two ways, depending on what you're comfortable with:
+
+✅ Option 1: One File (Recommended for Now)
+
+Write all 5 mini-programs in one .py file.
+
+Separate each with comments or clear headers like:
+
+# --- Program 1: Simple Calculator ---
+...
+
+# --- Program 2: Age in Months ---
+...
+
+
+This keeps things organized and easy to share for review.
+
+✅ Option 2: Separate Files
+
+Create 5 different files, e.g.:
+
+calculator.py
+
+age_in_months.py
+
+circle_area.py
+
+temp_converter.py
+
+self_intro.py
+
+Use this if you're already used to managing files or want to simulate building individual scripts.
+
+✨ Suggestion:
+
+For now, start with Option 1 (One File) — it’s simpler to review together.
+
+Once you're done, just copy the code here, or upload a .py file, and I’ll check it for you. Ready when you are!
