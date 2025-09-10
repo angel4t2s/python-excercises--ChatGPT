@@ -1,0 +1,100 @@
+Perfect! 🚀
+Welcome to Day 4: File Handling & Exception Handling — now we move into the world of storing and retrieving data, just like real applications do.
+
+🧠 What You’ll Learn
+
+Reading from and writing to text files (open, read, write, with)
+
+Appending to files
+
+Handling file errors with try-except
+
+Using files as a simple database
+
+👨‍💻 Day 4 Real-Life Style Tasks
+✅ 1. Diary App (File Writer)
+
+Create a program where the user can type a diary entry.
+
+Save the entry to a file called diary.txt
+
+Each entry should be stored with the date and time
+
+Example:
+
+[2025-08-18 14:35]
+Today I started learning file handling in Python!
+
+✅ 2. Notes Reader
+
+Make a program that:
+
+Opens diary.txt
+
+Displays all entries
+
+If the file doesn’t exist, print "No diary entries yet." (use try-except)
+
+✅ 3. Contact Book
+
+Create a contact manager using a text file:
+
+Let the user add new contacts (name, phone, email)
+
+Save them in contacts.txt (one contact per line)
+
+Add a function to search by name and display the result
+
+Example entry in file:
+
+Chloe, 08123456789, chloe@email.com
+
+✅ 4. Word Counter (File Analyzer)
+
+Ask the user for a filename
+
+Open the file and count:
+
+Total words
+
+Total lines
+
+Most common word (bonus)
+
+If the file doesn’t exist, print "File not found."
+
+✅ 5. Error Logger
+
+Create a function that asks the user for a number
+
+Try to divide 100 by that number
+
+If the user enters 0 or something invalid, catch the error
+
+Write the error message into errors.log with a timestamp
+
+⚡ Bonus Challenge: Student Records Database
+
+Create a file students.txt
+
+Each student’s record = Name, Age, Score
+
+Add options:
+
+Add student
+
+View all students
+
+Search student by name
+
+Delete a student (rewrite the file without that record)
+
+📌 Instructions
+
+Put all tasks in one file (like before), separated with clear headers
+
+Use functions for each task
+
+Submit here when done for review
+
+🔥 This lesson is real-world Python — you’ll see how apps keep notes, logs, and databases.
