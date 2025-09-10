@@ -1,0 +1,114 @@
+🔥 Let's go, Tychicus! Welcome to Day 2: Loops & Functions. Today’s focus is on:
+
+🧠 Key Concepts
+
+for loops & while loops
+
+range(), break, continue
+
+Function creation (def), arguments, and return values
+
+Combining loops with functions for real-life tasks
+
+👨‍💻 Day 2 Tasks (Real-Life Style)
+✅ 1. Student Grades Averager
+
+Write a program that:
+
+Asks how many students are in a class
+
+For each student, asks for their name and 3 test scores
+
+Calculates their average
+
+Displays:
+John's average score is 78.0 - Passed or
+Sarah's average score is 49.3 - Failed
+(Passing score is 50)
+
+Hint: Use a for loop and a function to calculate average.
+
+✅ 2. Password Strength Checker
+
+Create a function that checks if a password is strong. A password is strong if:
+
+It’s at least 8 characters
+
+Contains both uppercase and lowercase
+
+Contains at least one digit
+
+Contains at least one special character (!@#$%^&*())
+
+Print either:
+
+"Strong password!"
+
+or "Weak password. Try again."
+
+Bonus: You can loop until the user enters a strong one.
+
+✅ 3. Multiplication Table Generator
+
+Create a function that takes a number and prints its multiplication table from 1 to 12.
+
+Example for 3:
+
+3 x 1 = 3
+3 x 2 = 6
+...
+3 x 12 = 36
+
+
+Use a loop inside the function.
+
+✅ 4. Number Guessing Game
+
+Write a program that randomly selects a number between 1 and 20.
+
+The user has 5 chances to guess the number.
+
+For each guess, tell them:
+
+“Too high!”
+
+“Too low!”
+
+or “Correct!”
+
+If they fail all 5 times, show the correct number.
+
+Hint: Use import random
+
+✅ 5. Countdown Timer
+
+Ask the user to enter a number of seconds.
+
+Count down to 0, printing the number each second.
+
+Hint: Use a while loop and time.sleep(1) from the time module.
+
+⚡ Bonus Challenge (Optional)
+Bank ATM Simulator
+
+Ask the user for a 4-digit PIN to log in (you can hardcode the PIN as "1234")
+
+Show a menu:
+
+Check balance
+
+Deposit
+
+Withdraw
+
+Exit
+
+Use a loop to let them keep performing actions until they choose to exit.
+
+🎯 Next Steps:
+
+Code these in a single file (like before), using functions where needed.
+
+Submit here once done — I’ll review and give feedback.
+
+You’re leveling up fast, let’s keep the fire on! 🔥
