@@ -1,0 +1,115 @@
+Perfect 🔥 Welcome to Day 5: Object-Oriented Programming (OOP).
+This is the day we switch from “just scripts” to thinking like architects — modeling real-world problems with classes and objects.
+
+🧠 Core Concepts for Today
+
+Classes & Objects – blueprints and actual things
+
+Attributes & Methods – data and behavior inside objects
+
+__init__ Constructor – set up objects when created
+
+Encapsulation – protecting data with private attributes (_ / __)
+
+Inheritance – reusing code between classes (Parent → Child)
+
+Polymorphism – methods behaving differently depending on the object
+
+👨‍💻 Day 5 Real-Life Style Tasks
+✅ 1. Student Management System
+
+Create a Student class with:
+
+Attributes: name, age, grades (list of numbers)
+
+Methods:
+
+get_average() → returns average grade
+
+has_passed() → returns True if average ≥ 50
+
+Bonus: Create multiple students and store them in a list. Print all who passed.
+
+✅ 2. Bank Account System
+
+Create a BankAccount class with:
+
+Attributes: owner, balance (default = 0)
+
+Methods:
+
+deposit(amount) → adds to balance
+
+withdraw(amount) → subtracts if enough funds, else print “Insufficient balance”
+
+__str__() → nicely print account info
+
+Bonus: Inherit from BankAccount to make a SavingsAccount with an extra method add_interest(rate) that increases balance by a percentage.
+
+✅ 3. Library System
+
+Create a Book class with attributes: title, author, available (default = True)
+
+Create a Library class with:
+
+books (list of Book objects)
+
+add_book(book)
+
+borrow_book(title) → mark as unavailable
+
+return_book(title) → mark as available
+
+Add exception handling if book isn’t found.
+
+✅ 4. Employee Payroll
+
+Create a base class Employee with attributes: name, salary
+
+Create subclasses:
+
+Manager (bonus attribute: department)
+
+Developer (bonus attribute: programming_language)
+
+Add a method get_details() in each class that prints customized info.
+
+✅ 5. Shape Calculator (Polymorphism Demo)
+
+Create a base class Shape with a method area().
+
+Create subclasses:
+
+Rectangle (attributes: length, width → area = length * width)
+
+Circle (attribute: radius → area = π * r^2)
+
+Triangle (attributes: base, height → area = 0.5 * base * height)
+
+Demonstrate polymorphism by looping through a list of shapes and calling .area() on each.
+
+⚡ Bonus Challenge: School System
+
+Create a School class that holds:
+
+A list of Student objects
+
+A list of Teacher objects
+
+Add methods like:
+
+add_student(), add_teacher()
+
+list_students(), list_teachers()
+
+find_student(name) → returns the student object if found
+
+📌 Instructions
+
+Put all tasks into one file (like before)
+
+Use classes and objects everywhere (no free-floating functions unless necessary)
+
+Test your classes with multiple objects (not just one per class)
+
+🔥 This day is a big milestone. Once you’re comfortable with OOP, you’re coding like real software engineers.
